@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ./SecureCientDataManagementAPI
+      dockerfile: Dockerfile
+    ports:
+      - "28052:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ENCRYPTION_KEY=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+
+  frontend:
+    build:
+      context: ./SecureCientDataManagementFrontend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
