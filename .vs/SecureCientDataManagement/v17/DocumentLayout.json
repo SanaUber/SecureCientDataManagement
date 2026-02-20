@@ -1,0 +1,310 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{477F3AAB-B732-43D2-A838-0B98276C59F0}|..\\SecureCientDataManagementFrontend\\SecureCientDataManagementFrontend.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementfrontend\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12652835-11D4-4D98-8C9C-CBE770A0CE76}|..\\SecureCientDataManagementAPI\\SecureCientDataManagementAPI.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementapi\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12652835-11D4-4D98-8C9C-CBE770A0CE76}|..\\SecureCientDataManagementAPI\\SecureCientDataManagementAPI.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementapi\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12652835-11D4-4D98-8C9C-CBE770A0CE76}|..\\SecureCientDataManagementAPI\\SecureCientDataManagementAPI.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477F3AAB-B732-43D2-A838-0B98276C59F0}|..\\SecureCientDataManagementFrontend\\SecureCientDataManagementFrontend.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementfrontend\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477F3AAB-B732-43D2-A838-0B98276C59F0}|..\\SecureCientDataManagementFrontend\\SecureCientDataManagementFrontend.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementfrontend\\services\\clientapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477F3AAB-B732-43D2-A838-0B98276C59F0}|..\\SecureCientDataManagementFrontend\\SecureCientDataManagementFrontend.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementfrontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12652835-11D4-4D98-8C9C-CBE770A0CE76}|..\\SecureCientDataManagementAPI\\SecureCientDataManagementAPI.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementapi\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12652835-11D4-4D98-8C9C-CBE770A0CE76}|..\\SecureCientDataManagementAPI\\SecureCientDataManagementAPI.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementapi\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12652835-11D4-4D98-8C9C-CBE770A0CE76}|..\\SecureCientDataManagementAPI\\SecureCientDataManagementAPI.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementapi\\repository\\inmemoryclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12652835-11D4-4D98-8C9C-CBE770A0CE76}|..\\SecureCientDataManagementAPI\\SecureCientDataManagementAPI.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementapi\\repository\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12652835-11D4-4D98-8C9C-CBE770A0CE76}|..\\SecureCientDataManagementAPI\\SecureCientDataManagementAPI.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementapi\\models\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12652835-11D4-4D98-8C9C-CBE770A0CE76}|..\\SecureCientDataManagementAPI\\SecureCientDataManagementAPI.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementapi\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12652835-11D4-4D98-8C9C-CBE770A0CE76}|..\\SecureCientDataManagementAPI\\SecureCientDataManagementAPI.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementapi\\interfaces\\iencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477F3AAB-B732-43D2-A838-0B98276C59F0}|..\\SecureCientDataManagementFrontend\\SecureCientDataManagementFrontend.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementfrontend\\components\\pages\\clientlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477F3AAB-B732-43D2-A838-0B98276C59F0}|..\\SecureCientDataManagementFrontend\\SecureCientDataManagementFrontend.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementfrontend\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477F3AAB-B732-43D2-A838-0B98276C59F0}|..\\SecureCientDataManagementFrontend\\SecureCientDataManagementFrontend.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementfrontend\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477F3AAB-B732-43D2-A838-0B98276C59F0}|..\\SecureCientDataManagementFrontend\\SecureCientDataManagementFrontend.csproj|c:\\users\\sanar\\onedrive\\desktop\\kualityassessment\\securecientdatamanagementfrontend\\components\\pages\\clientform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Program.cs",
+              "RelativeToolTip": "..\\SecureCientDataManagementAPI\\Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwCkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T01:41:05.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementAPI\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "..\\SecureCientDataManagementAPI\\Controllers\\ClientsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T22:49:12.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientApiService.cs",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Services\\ClientApiService.cs",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementFrontend\\Services\\ClientApiService.cs",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Services\\ClientApiService.cs",
+              "RelativeToolTip": "..\\SecureCientDataManagementFrontend\\Services\\ClientApiService.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAABwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T00:03:29.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Program.cs",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementFrontend\\Program.cs",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Program.cs",
+              "RelativeToolTip": "..\\SecureCientDataManagementFrontend\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T00:10:21.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementFrontend\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "..\\SecureCientDataManagementFrontend\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-19T22:48:14.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Repository\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementAPI\\Repository\\IClientRepository.cs",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Repository\\IClientRepository.cs",
+              "RelativeToolTip": "..\\SecureCientDataManagementAPI\\Repository\\IClientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T01:38:34.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementFrontend\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Components\\Routes.razor",
+              "RelativeToolTip": "..\\SecureCientDataManagementFrontend\\Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T01:34:23.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Interfaces\\IClientService.cs",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementAPI\\Interfaces\\IClientService.cs",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Interfaces\\IClientService.cs",
+              "RelativeToolTip": "..\\SecureCientDataManagementAPI\\Interfaces\\IClientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T01:39:54.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EncryptionService.cs",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Services\\EncryptionService.cs",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementAPI\\Services\\EncryptionService.cs",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Services\\EncryptionService.cs",
+              "RelativeToolTip": "..\\SecureCientDataManagementAPI\\Services\\EncryptionService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAIwDMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T01:50:05.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementAPI\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Services\\ClientService.cs",
+              "RelativeToolTip": "..\\SecureCientDataManagementAPI\\Services\\ClientService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAADwvycAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:37:31.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InMemoryClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Repository\\InMemoryClientRepository.cs",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementAPI\\Repository\\InMemoryClientRepository.cs",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Repository\\InMemoryClientRepository.cs",
+              "RelativeToolTip": "..\\SecureCientDataManagementAPI\\Repository\\InMemoryClientRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvxsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T01:39:14.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementAPI\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Models\\Client.cs",
+              "RelativeToolTip": "..\\SecureCientDataManagementAPI\\Models\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T03:31:56.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientDto.cs",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Models\\ClientDto.cs",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementAPI\\Models\\ClientDto.cs",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Models\\ClientDto.cs",
+              "RelativeToolTip": "..\\SecureCientDataManagementAPI\\Models\\ClientDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T03:32:13.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClientList.razor",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Components\\Pages\\ClientList.razor",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementFrontend\\Components\\Pages\\ClientList.razor",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Components\\Pages\\ClientList.razor",
+              "RelativeToolTip": "..\\SecureCientDataManagementFrontend\\Components\\Pages\\ClientList.razor",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADAAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T00:01:53.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEncryptionService.cs",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Interfaces\\IEncryptionService.cs",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementAPI\\Interfaces\\IEncryptionService.cs",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementAPI\\Interfaces\\IEncryptionService.cs",
+              "RelativeToolTip": "..\\SecureCientDataManagementAPI\\Interfaces\\IEncryptionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T01:49:39.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementFrontend\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "..\\SecureCientDataManagementFrontend\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-20T01:21:43.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClientForm.razor",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Components\\Pages\\ClientForm.razor",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementFrontend\\Components\\Pages\\ClientForm.razor",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Components\\Pages\\ClientForm.razor",
+              "RelativeToolTip": "..\\SecureCientDataManagementFrontend\\Components\\Pages\\ClientForm.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T00:01:36.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "..\\SecureCientDataManagementFrontend\\Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Users\\sanar\\OneDrive\\Desktop\\kualityAssessment\\SecureCientDataManagementFrontend\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "..\\SecureCientDataManagementFrontend\\Components\\Pages\\Error.razor",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T00:00:41.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAKISAAAAAAAAAAAIwLUSAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-19T23:45:19.881Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
