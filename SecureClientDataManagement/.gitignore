@@ -15,12 +15,10 @@ obj/
 *.pdb
 *.exe
 
-# Docker
-Dockerfile*
-docker-compose.override.yml
+ 
 
-# Environment secrets
-.env
+# # Environment secrets
+# .env
 
 # Misc
 .DS_Store
