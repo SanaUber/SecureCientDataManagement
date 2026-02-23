@@ -14,7 +14,7 @@ obj/
 *.dll
 *.pdb
 *.exe
-*.vs/
+
 # Docker
 Dockerfile*
 docker-compose.override.yml

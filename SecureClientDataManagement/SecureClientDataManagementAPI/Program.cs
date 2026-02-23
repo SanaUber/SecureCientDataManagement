@@ -35,11 +35,7 @@ app.UseCors("AllowAll");
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-        c.RoutePrefix = string.Empty;   // ← yeh line add kar do (root pe Swagger khulega)
-    });
+    app.UseSwaggerUI( );
 }
 
 app.UseHttpsRedirection();
