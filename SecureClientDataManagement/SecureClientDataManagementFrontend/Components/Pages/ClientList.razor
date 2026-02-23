@@ -1,0 +1,50 @@
+﻿<h3 class="mt-5">Clients List</h3>
+
+@if (Clients == null)
+{
+    <p>Loading...</p>
+}
+else if (Clients.Count == 0)
+{
+    <p>No clients added yet.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Emirates ID</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var client in Clients)
+            {
+                <tr>
+                    <td>@client.FirstName  </td>
+                    <td> @client.LastName</td>
+                    <td>
+                        @if (RevealedIds.Contains(client.Id))
+                        {
+                            @DecryptedValues.GetValueOrDefault(client.Id, "Decrypting...")
+                            <button class="btn btn-secondary btn-sm ms-2" @onclick="() => OnToggleReveal.InvokeAsync(client.Id)">Hide</button>
+                        }
+                        else
+                        {
+                            @:784-XXXX-XXXXXXX-X
+                            <button class="btn btn-info btn-sm ms-2" @onclick="() => OnToggleReveal.InvokeAsync(client.Id)">Reveal</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter] public List<Client> Clients { get; set; } = new();
+    [Parameter] public EventCallback<int> OnToggleReveal { get; set; }
+    [Parameter] public HashSet<int> RevealedIds { get; set; } = new();
+    [Parameter] public Dictionary<int, string> DecryptedValues { get; set; } = new();
+}

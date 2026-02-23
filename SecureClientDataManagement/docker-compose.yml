@@ -1,0 +1,21 @@
+services:
+  api:
+    build:
+      context: ./SecureClientDataManagementAPI
+      dockerfile: Dockerfile
+    ports:
+      - "28053:80"
+    env_file:
+      - .env
+    command: --urls "http://0.0.0.0:80" --launch-profile "SwaggerRoot"
+
+  frontend:
+    build:
+      context: ./SecureClientDataManagementFrontend
+      dockerfile: Dockerfile
+    ports:
+      - "8081:80"
+    depends_on:
+      - api
+    env_file:
+      - .env
