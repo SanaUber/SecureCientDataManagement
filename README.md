@@ -38,24 +38,71 @@ Now these both work:
 ## Project structure
 
 ```text
+ ## Detailed folder structure
+
+```text
 SecureCientDataManagement/
-├── SecureClientDataManagement/
-│   ├── SecureClientDataManagementAPI/
-│   │   ├── Controllers/
-│   │   ├── Interfaces/
-│   │   ├── Models/
-│   │   ├── Repository/
-│   │   ├── Services/
-│   │   └── Program.cs
-│   ├── SecureClientDataManagementFrontend/
-│   │   ├── Components/
-│   │   ├── Interfaces/
-│   │   ├── Models/
-│   │   ├── Services/
-│   │   └── Program.cs
-│   ├── docker-compose.yml
-│   └── SecureClientDataManagement.sln
-└── README.md
+├── README.md
+└── SecureClientDataManagement/
+    ├── docker-compose.yml
+    ├── SecureClientDataManagement.sln
+    │
+    ├── SecureClientDataManagementAPI/
+    │   ├── SecureCientDataManagementAPI.csproj
+    │   ├── Program.cs
+    │   ├── appsettings.json
+    │   ├── appsettings.Development.json
+    │   ├── Properties/
+    │   │   └── launchSettings.json
+    │   ├── Controllers/
+    │   │   └── ClientsController.cs
+    │   ├── Models/
+    │   │   ├── Client.cs
+    │   │   └── ClientDto.cs
+    │   ├── Interfaces/
+    │   │   ├── IClientService.cs
+    │   │   └── IEncryptionService.cs
+    │   ├── Repository/
+    │   │   ├── IClientRepository.cs
+    │   │   └── InMemoryClientRepository.cs
+    │   └── Services/
+    │       ├── ClientService.cs
+    │       └── EncryptionService.cs
+    │
+    └── SecureClientDataManagementFrontend/
+        ├── SecureCientDataManagementFrontend.csproj
+        ├── Program.cs
+        ├── appsettings.json
+        ├── appsettings.Development.json
+        ├── Properties/
+        │   └── launchSettings.json
+        ├── Models/
+        │   ├── Client.cs
+        │   └── ClientDto.cs
+        ├── Interfaces/
+        │   └── IClientApiService.cs
+        ├── Services/
+        │   └── ClientApiService.cs
+        ├── Components/
+        │   ├── App.razor
+        │   ├── Routes.razor
+        │   ├── _Imports.razor
+        │   ├── Layout/
+        │   │   ├── MainLayout.razor
+        │   │   ├── MainLayout.razor.css
+        │   │   ├── NavMenu.razor
+        │   │   └── NavMenu.razor.css
+        │   └── Pages/
+        │       ├── Home.razor
+        │       ├── ClientForm.razor
+        │       ├── ClientList.razor
+        │       └── Error.razor
+        └── wwwroot/
+            ├── app.css
+            ├── favicon.png
+            └── bootstrap/
+```
+
 ```
 
 ---
