@@ -1,65 +1,72 @@
-# SecureCientDataManagement
-SecureCientDataManagement
-# Secure Client Data Management Assignment
+# Secure Client Data Management (Interview Assignment)
 
-## Project Overview
-This project is a secure client data management system with encryption of Emirates ID. It has two parts:
-- **Backend**: ASP.NET Core Web API (.NET 8) – handles data, encryption, and API endpoints
-- **Frontend**: Blazor Server (.NET 8) – user interface to add clients and view list with reveal feature
-- **Docker**: docker-compose to run both frontend and backend in containers which executed partially
+A simple full-stack app to **store client records securely**.
 
-Features:
-- Add new client (First Name, Last Name, Emirates ID)
-- List of clients with masked Emirates ID (784-XXXX-XXXXXXX-X)
-- Reveal button to decrypt and show original Emirates ID
-- AES-256 encryption using environment variable key a strong encryption method data is locked 256-bit key and also unlocked with same key
-- In-memory data storage (can be extended to SQLite)data in RAM
-- Swagger UI for API testing
-- Docker support for easy deployment
+- **Backend:** ASP.NET Core Web API (.NET 8)
+- **Frontend:** Blazor Server (.NET 8)
+- **Security:** Emirates ID is encrypted with AES-256 before storage
+- **Storage:** In-memory (data resets on app restart)
 
-## Technologies Used
-- Backend: ASP.NET Core Web API (.NET 8)
-- Frontend: Blazor Server (.NET 8)
-- Encryption: AES-256 (System.Security.Cryptography)
-- Dependency Injection & Interfaces (SOLID principles)
-- Docker & docker-compose
-- Swagger (Swashbuckle.AspNetCore)
+---
 
-## Folder Structure
-SecureCientDataManagement (root folder)
-├── SecureCientDataManagement.sln              ← Main solution file (contains both projects)
-├── docker-compose.yml                         ← Docker configuration to run both API and frontend
-├── README.md                                  ← This file
-│
-├── SecureCientDataManagementAPI (Backend project)
-│   ├── Controllers
-│   │   └── ClientsController.cs               ← API endpoints (Add, GetAll, Decrypt)
-│   ├── Interfaces
-│   │   ├── IClientService.cs
-│   │   ├── IEncryptionService.cs
-│   │   └── IClientRepository.cs
-│   ├── Models
-│   │   ├── Client.cs
-│   │   └── ClientDto.cs
-│   ├── Repositories
-│   │   └── InMemoryClientRepository.cs
-│   ├── Services
-│   │   ├── ClientService.cs
-│   │   └── EncryptionService.cs
-│   ├── Program.cs                             ← Registers services, Swagger, controllers
-│   └── Dockerfile                             ← For building backend container
-│
-└── SecureCientDataManagementFrontend (Frontend project)
-├── Components
-│   ├── Pages
-│   │   └── Home.razor                     ← Main page (form + list + reveal logic)
-│   └── Shared
-├── Interfaces
-│   └── IClientApiService.cs
-├── Models
-│   └── ClientDto.cs
-├── Services
-│   └── ClientApiService.cs                ← Calls backend API
-├── Program.cs                             ← Registers HttpClient, services
-└── Dockerfile                             ← For building frontend container
-text##
+## What this project does
+
+You can:
+1. Add a client (First Name, Last Name, Emirates ID)
+2. View client list with masked Emirates ID
+3. Click **Reveal** to decrypt and see original Emirates ID
+
+---
+
+## Why `http://localhost:28052/` was showing 404
+
+### Reason (simple)
+In the API project, controllers are mapped under `/api/...` and Swagger UI is under `/swagger`.
+There was **no route defined for root path `/`**, so opening only the base URL returned **HTTP 404**.
+
+### What was changed
+A root endpoint was added to redirect `/` to Swagger:
+
+- `GET /` → redirects to `/swagger`
+
+Now these both work:
+- `http://localhost:28052/`
+- `http://localhost:28052/swagger`
+
+---
+
+## Project structure
+
+```text
+SecureCientDataManagement/
+├── SecureClientDataManagement/
+│   ├── SecureClientDataManagementAPI/
+│   │   ├── Controllers/
+│   │   ├── Interfaces/
+│   │   ├── Models/
+│   │   ├── Repository/
+│   │   ├── Services/
+│   │   └── Program.cs
+│   ├── SecureClientDataManagementFrontend/
+│   │   ├── Components/
+│   │   ├── Interfaces/
+│   │   ├── Models/
+│   │   ├── Services/
+│   │   └── Program.cs
+│   ├── docker-compose.yml
+│   └── SecureClientDataManagement.sln
+└── README.md
+```
+
+---
+
+## API endpoints (quick)
+
+Base URL example: `http://localhost:28052`
+
+- `GET /swagger` → API documentation UI
+- `POST /api/clients` → add new client
+- `GET /api/clients` → get all clients (masked Emirates ID)
+- `GET /api/clients/{id}/decrypt` → reveal original Emirates ID
+
+---
