@@ -4,7 +4,7 @@ services:
       context: ./SecureClientDataManagementAPI
       dockerfile: Dockerfile
     ports:
-      - "28053:80"
+      - "28052:80"
     env_file:
       - .env
     command: --urls "http://0.0.0.0:80" --launch-profile "SwaggerRoot"

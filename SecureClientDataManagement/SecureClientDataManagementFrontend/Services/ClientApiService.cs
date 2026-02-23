@@ -7,19 +7,20 @@ namespace SecureCientDataManagementFrontend.Services
     public class ClientApiService : IClientApiService
     {
         private readonly HttpClient _http;
-        private readonly string _baseUrl;
-        public ClientApiService(HttpClient http, IConfiguration config)
+        private readonly string _baseUrl = "http://api:80/api/Clients";  
+
+        public ClientApiService(HttpClient http)
         {
             _http = http ?? throw new ArgumentNullException(nameof(http));
-            _baseUrl = config["API_URL"] ?? "http://localhost:28052/api/Clients";
         }
+
         public async Task AddClientAsync(ClientDto dto)
         {
             if (dto == null) throw new ArgumentNullException(nameof(dto));
 
             var response = await _http.PostAsJsonAsync(_baseUrl, dto);
 
-            response.EnsureSuccessStatusCode();  
+            response.EnsureSuccessStatusCode(); // agar fail ho toh exception throw karega
         }
 
         public async Task<List<Client>> GetClientsAsync()
