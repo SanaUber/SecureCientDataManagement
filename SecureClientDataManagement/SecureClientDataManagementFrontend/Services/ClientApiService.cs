@@ -20,7 +20,7 @@ namespace SecureCientDataManagementFrontend.Services
 
             var response = await _http.PostAsJsonAsync(_baseUrl, dto);
 
-            response.EnsureSuccessStatusCode(); // agar fail ho toh exception throw karega
+            response.EnsureSuccessStatusCode();  
         }
 
         public async Task<List<Client>> GetClientsAsync()
