@@ -37,7 +37,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI( );
 }
-
+app.MapGet("/", () => Results.Redirect("/swagger")); // for redirecting in docker
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
