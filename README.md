@@ -1,4 +1,4 @@
-# Secure Client Data Management (Interview Assignment)
+# Secure Client Data Management 
 
 A simple full-stack app to **store client records securely**.
 
