@@ -1,0 +1,6 @@
+@SecureCientDataManagementAPI_HostAddress = http://localhost:5023
+
+GET {{SecureCientDataManagementAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

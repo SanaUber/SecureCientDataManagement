@@ -1,0 +1,58 @@
+﻿ 
+
+                    @page "/"
+@rendermode InteractiveServer
+@using SecureCientDataManagementFrontend.Interfaces
+@using SecureCientDataManagementFrontend.Models
+@using SecureCientDataManagementFrontend.Services
+@inject IClientApiService ApiService
+ 
+<PageTitle>Home - Secure Client Data</PageTitle>
+
+<h1>Secure Client Data Management</h1>
+
+<ClientForm NewClient="newClient" OnAddClient="AddClient" />
+
+<ClientList Clients="clients" RevealedIds="revealedIds" DecryptedValues="decryptedValues" OnToggleReveal="ToggleReveal" />
+
+@code {
+    private ClientDto newClient = new();
+    private List<Client> clients = new();
+    private HashSet<int> revealedIds = new();
+    private Dictionary<int, string> decryptedValues = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+         clients = await ApiService.GetClientsAsync();
+    }
+
+    private async Task AddClient()
+    {
+        await ApiService.AddClientAsync(newClient);
+        newClient = new();
+        clients = await ApiService.GetClientsAsync();
+    }
+
+    private async Task ToggleReveal(int id)
+    {
+        if (revealedIds.Contains(id))
+        {
+            revealedIds.Remove(id);
+            decryptedValues.Remove(id);
+        }
+        else
+        {
+            revealedIds.Add(id);
+            try
+            {
+                var decrypted = await ApiService.DecryptEmiratesIdAsync(id);
+                decryptedValues[id] = decrypted;
+            }
+            catch (Exception ex)
+            {
+                decryptedValues[id] = "Error: " + ex.Message;
+            }
+        }
+        StateHasChanged();
+    }
+}

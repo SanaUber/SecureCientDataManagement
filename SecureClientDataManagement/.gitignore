@@ -1,0 +1,27 @@
+# .NET / Visual Studio
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.vs/
+*.vscode/
+*.log
+*.tmp
+
+# Build artifacts
+*.dll
+*.pdb
+*.exe
+*.vs/
+# Docker
+Dockerfile*
+docker-compose.override.yml
+
+# Environment secrets
+.env
+
+# Misc
+.DS_Store
+Thumbs.db
